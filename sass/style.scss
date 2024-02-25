@@ -1,0 +1,75 @@
+$text-color:#FFFFFF;
+$background: #5C2513;
+.page{
+    background-color: $background;
+    #logo-img{
+      margin-left: -20%;
+      width: 10rem;
+    }
+    .link{
+        padding-left: 36%;
+        gap: 50px;
+
+    }
+    .link a{
+        color: $text-color;
+    }
+    .title h1{
+        color: $text-color;
+        font-family: Outfit;
+        font-size: 87px;
+        font-weight: 700;
+        line-height: 110px;
+        letter-spacing: 0em;
+        text-align: left;        
+    }
+    .title p{
+        font-family: Ribeye Marrow;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 27px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: $text-color;        
+    }
+    .buy{
+        width: 225px;
+        height: 76px;
+        border-radius: 50px;
+        background: #D9D9D9;
+        font-family: Outfit;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 25px;
+        letter-spacing: 0.03em;
+        text-align: center;
+        color: $background;
+    }
+    .buy:hover{
+        border: 2px solid $text-color;
+        color: $text-color;
+        background-color: $background;
+    }
+    .view{
+        width: 225px;
+        height: 76px;
+        border-radius: 50px;
+        border: 2px solid $text-color;
+        font-family: Outfit;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 25px;
+        letter-spacing: 0.03em;
+        text-align: center;
+        color: $text-color;
+    }
+    .view:hover{
+        border: 2px solid $background;
+        color: $background;
+        background-color: #D9D9D9;
+    }
+    .hero-image img{
+        width: 30rem;
+    }
+}
+
